@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MCQ Template</title>
+	<link type="text/css" rel="stylesheet" href="style/main.css" />
+	<link type="text/css" rel="stylesheet" href="style/font-awesome.min.css" />
+    
+    <script type="text/javascript" src="script/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="script/config.js"></script>
+    <script type="text/javascript" src="script/main.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+	
+    <div id="containerDiv">
+    <div style="display:none;" id="alertMessage" class="errorMsg"></div>
+	<!-- <span ><img type="img" src="img/iconQ.gif" id="" class='iconQ'></span> -->
+    	<div id="title">
+        	<span></span>
+        </div>
+          
+        <div class="content">
+        	<div id="container">
+            	<!-- to be filled by json -->
+            </div>
+        </div>
+        
+        <div class="footer">
+        	<input type="button" class="btn" value="Submit" id="submit" onclick="checkAnswers();" disabled="">
+        	<!-- <input type="button" class="btn" value="Try Again" id="next" onclick="nextQuestion();" disabled=""> -->
+            <input type="button" class="btn" value="Reset" id="reset" onclick="Reset();" disabled>
+
+           <!-- <input type="button" class="btn" value="Answer" id="answer" onclick="Answer();" disabled>-->
+        </div>
+        
+	</div>
+    
+    <div class="copyright"></div>
+</div>
+<div id="audioContainerDiv">
+			
+	</div>
+</body>
+</html>
